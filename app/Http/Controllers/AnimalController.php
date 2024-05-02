@@ -16,4 +16,17 @@ class AnimalController extends Controller
         $animal = Animal::find($id);
         return view("animals.show", ["animal" => $animal]);
     }
+
+    public function create() {
+        return view("animals.create");
+    }
+
+    public function store(Request $request) {
+        $animal = new Animal();
+        $animal->animal = $request->animal;
+        $animal->description = $request->description;
+        $animal->age = $request->age;
+        $animal->save();
+        return redirect("/");
+    }
 }

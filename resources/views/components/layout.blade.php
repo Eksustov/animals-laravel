@@ -9,6 +9,7 @@
 <body>
     <nav>
         <a href="/">Home</a>
+        <a href="/create">Create</a>
     </nav>
     <main>
     {{$slot}}
