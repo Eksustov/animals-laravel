@@ -21,6 +21,9 @@ class AnimalFactory extends Factory
             "animal" => fake(),
             "description" => fake(),
             "age" => fake(),
+            "image" => fake(),
+            "alt-image" => fake(),
+
         ];
     }
 }

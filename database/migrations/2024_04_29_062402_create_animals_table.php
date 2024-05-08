@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string("animal");
             $table->string("description");
             $table->integer("age");
+            $table->string("image");
+            $table->string("alt-image");
             $table->timestamps();
         });
     }

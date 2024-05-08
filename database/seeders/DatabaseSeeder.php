@@ -26,6 +26,8 @@ class DatabaseSeeder extends Seeder
             "animal" => "pufferfish",
             "description" => "He doesn't like trees a lot.",
             "age" => 100000,
+            "image" =>"https://static.wikia.nocookie.net/stripepedia-revamped/images/5/5c/Wabungus.png/revision/latest?cb=20220708092845",
+            "alt-image" => "a man holding a wabungus",
         ]);
     }
 }
